@@ -173,19 +173,66 @@ print()
     *
 
 '''
-
 n=5
-
 for i in range(1,n+1):
         
         print(" " * (n-i) + "* "*(i))
 
 for i in range(1,n+1):
         
-        print(" " * (i-1) + "* "*(n-i+1))
+        print(" " * (i) + "* "*(n-i))
 
 print()
 
+'''
+9 Sand glass pattern
+* * * * *
+ * * * *
+  * * *
+   * *
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+'''
+n=5
+for i in range(1,n+1):
+        
+        print(" " * (i-1) + "* "*(n-i+1))
+
+for i in range(2,n+1):
+        
+        print(" " * (n-i) + "* "*(i))
+print()
+
+'''
+10 k shaped star pattern
+* * * * *
+* * * *
+* * *
+* *
+*
+* *
+* * *
+* * * *
+* * * * *
+'''
+n=5
+for i in range(1,n+1):
+    print("* "*(n+1-i))
+
+for i in range(2,n+1):
+    print("* "*i)
+
+print()
+
+n=5
+for i in range(3,n+1):
+      print(" "*(n-i)+"* "*(i))
+for i in range(n-1,2,-1):
+      print(" "*(n-i)+"* "*(i))
+print()
 
 
 
