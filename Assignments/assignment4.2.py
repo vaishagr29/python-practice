@@ -1,50 +1,50 @@
-# # Star pattern
+# Star pattern
 
-# # 1. Butterfly Pattern
+# 1. Butterfly Pattern
 
-# # *       *
-# # **     **
-# # ***   ***
-# # **** ****
-# # *********
-# # **** ****
-# # ***   ***
-# # **     **
-# # *       *
+# *       *
+# **     **
+# ***   ***
+# **** ****
+# *********
+# **** ****
+# ***   ***
+# **     **
+# *       *
 
-# n=5
-# for i in range(1,n):
-#     print("*"*i,end="")
-#     print(" "*(2*(n-i)-1),end="")
-#     print("*"*i,end="")
-#     print()
-# print("*"*(2*n - 1))
-# for i in range(n-1,0,-1):
-#     print("*"*i,end="")
-#     print(" "*(2*(n-i)-1),end="")
-#     print("*"*i,end="")
-#     print()
-
-
-# print()
+n=5
+for i in range(1,n):
+    print("*"*i,end="")
+    print(" "*(2*(n-i)-1),end="")
+    print("*"*i,end="")
+    print()
+print("*"*(2*n - 1))
+for i in range(n-1,0,-1):
+    print("*"*i,end="")
+    print(" "*(2*(n-i)-1),end="")
+    print("*"*i,end="")
+    print()
 
 
+print()
 
-# # 2. Hollow Right Triangle
 
-# # *
-# # * *
-# # *   *
-# # *     *
-# # * * * * *
-# n=5
-# for i in range(1,n+1):
-#     if(i==1):
-#         print("*")
-#     elif(i==5):
-#         print("* "*n)
-#     else:
-#         print("*"+" "*(2*i-3)+"*")
+
+# 2. Hollow Right Triangle
+
+# *
+# * *
+# *   *
+# *     *
+# * * * * *
+n=5
+for i in range(1,n+1):
+    if(i==1):
+        print("*")
+    elif(i==5):
+        print("* "*n)
+    else:
+        print("*"+" "*(2*i-3)+"*")
 
 
 
